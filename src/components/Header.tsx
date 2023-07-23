@@ -2,18 +2,22 @@ import Link from "next/link";
 import Image from "next/image";
 import Banner from "../../public/images/Banner.png";
 import Logo from "../../public/images/Logo.png";
+import Avatar from "../../public/images/avatar.jpg";
 import {
   FaTwitter as Twitter,
   FaGithub as Github,
   FaLinkedinIn as Linkedin,
   FaInstagram as Instagram,
+  FaSearch as Seaech,
+  FaBookmark as Bookmark,
+  FaBell as Bell
 } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="MainHeader">
-      <div className="HeaderTop flex  w-full">
-        <div className="Container flex  w-full justify-center bg-red-400 pt-[12px]">
+    <header className="MainHeader w-full bg-blue-300 ">
+      <div className="HeaderTop flex  w-full ">
+        <div className="Container flex  w-full justify-center pt-[12px]">
           <div className="bg-red-500  basis-[630px] h-[27px]  ">
             <Link href={""} className="px-[20px]">
               مقالات برتر
@@ -55,7 +59,48 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="HeaderBottom "></div>
+      <div className="HeaderBottom h-[80px] flex items-center w-full bg-purple-400 justify-center  ">
+        <div className="RightMenu w-[705px] h-[80px] flex items-center pl-[110px] bg-cyan-400 ">
+          <Link href={""} className="px-[20px]">
+            {" "}
+            خانه
+          </Link>
+          <Link href={""} className="px-[20px]">
+            طرح بندی ها
+          </Link>
+          <Link href={""} className="px-[20px]">
+            مگامنو
+          </Link>
+          <Link href={""} className="px-[20px]">
+            صفحات
+          </Link>
+          <Link href={""} className="px-[20px]">
+            نسخه سبک زندگی
+          </Link>
+          <Link href={""} className="px-[20px]">
+            نسخه تکنولوژی
+          </Link>
+        </div>
+        <div className="LeftItems flex items-center bg-teal-400 w-[555px] h-[80px] ">
+          <div className="SearchItem rounded-3xl bg-red-300">
+            <button className="pl-[6px] pr-[14px]">
+              <Seaech />
+            </button>
+            <input
+              type="text"
+              placeholder="جستجو.."
+              className="rounded-l-3xl outline-none h-[35px] w-[225px] "
+            />
+          </div>
+          <div className="w-[35px] h-[35px] flex justify-center items-center rounded-[50%] bg-gray-400 mx-2"><Bookmark/></div>
+          <div className="w-[35px] h-[35px] flex justify-center items-center rounded-[50%] bg-gray-400 mx-2"><Bell/></div>
+          <Image
+            src={Avatar}
+            alt={"avatar"}
+            className="rounded-[50%] w-[60px] h-[60px] mx-2"
+          />
+        </div>
+      </div>
     </header>
   );
 };
