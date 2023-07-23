@@ -19,16 +19,16 @@ const Header = () => {
       <div className="HeaderTop flex  w-full ">
         <div className="Container flex  w-full justify-center pt-[12px]">
           <div className="bg-red-500  basis-[630px] h-[27px]  ">
-            <Link href={""} className="px-[20px]">
+            <Link href={""} className="px-[20px] hover:text-[#3858f6]">
               مقالات برتر
             </Link>
-            <Link href={""} className="px-[20px]">
+            <Link href={""} className="px-[20px] hover:text-[#3858f6]">
               کالاها
             </Link>
-            <Link href={""} className="px-[20px]">
+            <Link href={""} className="px-[20px] hover:text-[#3858f6]">
               درباره ما
             </Link>
-            <Link href={""} className="px-[20px]">
+            <Link href={""} className="px-[20px] hover:text-[#3858f6]">
               تماس با ما
             </Link>
           </div>
@@ -61,23 +61,22 @@ const Header = () => {
       </div>
       <div className="HeaderBottom h-[80px] flex items-center w-full bg-purple-400 justify-center  ">
         <div className="RightMenu w-[705px] h-[80px] flex items-center pl-[110px] bg-cyan-400 ">
-          <Link href={""} className="px-[20px]">
-            {" "}
+          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
             خانه
           </Link>
-          <Link href={""} className="px-[20px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
             طرح بندی ها
           </Link>
-          <Link href={""} className="px-[20px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
             مگامنو
           </Link>
-          <Link href={""} className="px-[20px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
             صفحات
           </Link>
-          <Link href={""} className="px-[20px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
             نسخه سبک زندگی
           </Link>
-          <Link href={""} className="px-[20px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
             نسخه تکنولوژی
           </Link>
         </div>
@@ -92,8 +91,8 @@ const Header = () => {
               className="rounded-l-3xl outline-none h-[35px] w-[225px] "
             />
           </div>
-          <div className="w-[35px] h-[35px] flex justify-center items-center rounded-[50%] bg-gray-400 mx-2"><Bookmark/></div>
-          <div className="w-[35px] h-[35px] flex justify-center items-center rounded-[50%] bg-gray-400 mx-2"><Bell/></div>
+          <div className="w-[35px] h-[35px] flex justify-center items-center rounded-[50%] bg-gray-400 mx-2 hover:bg-[#3858f6] hover:text-white"><Bookmark/></div>
+          <div className="w-[35px] h-[35px] flex justify-center items-center rounded-[50%] bg-gray-400 mx-2 hover:bg-[#3858f6] hover:text-white"><Bell/></div>
           <Image
             src={Avatar}
             alt={"avatar"}
