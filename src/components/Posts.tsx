@@ -6,8 +6,8 @@ import Post3 from "../../public/images/post3.jpg";
 import Post4 from "../../public/images/post4.jpg";
 const Posts = () => {
   return (
-    <div className="Posts w-full  h-[1500px] bg-slate-600 pt-[30px] flex justify-center">
-      <div className="Container w-[290px] bg-red-400  px-[15px] flex-col ">
+    <div className="Posts w-full  h-[1500px] bg-[#f0f2f5]  pt-[30px] flex justify-center">
+      <div className="Container w-[290px]   px-[15px] flex-col ">
         <div className="RightPost group w-[260px] relative overflow-hidden rounded-lg ">
           <Image
             src={RightPost}
@@ -68,7 +68,7 @@ const Posts = () => {
             <Image
               src={Post4}
               alt={""}
-              className=" group-hover:scale-110 transition duration-300 "
+              className="  group-hover:scale-110 transition duration-300 "
             />
             <div className="PostContent pt-[20px]">
               <h2 className="text-[15px] mb-[10px] text-[#D93E40]">
@@ -80,7 +80,6 @@ const Posts = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
