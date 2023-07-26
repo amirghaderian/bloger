@@ -1,0 +1,16 @@
+/* fonts.css */
+@font-face {
+    font-family: IranSans;
+    src: url(../../public/font/Sans\ a4fran3.woff) format('woff'),
+         url(../../public/font/Sans\ a4fran3.ttf) format('truetype'),
+         url(../../public/font/Sans\ a4fran3.eot);
+  }
+  
+  @font-face {
+    font-family: VasirBold;
+    src: url(../../public/font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.woff2) format('woff2'),
+         url(../../public/font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.woff) format('woff'),
+         url(../../public/font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.ttf) format('truetype'),
+         url(../../public/font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.eot);
+  }
+  

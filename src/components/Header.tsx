@@ -28,28 +28,28 @@ const Header = () => {
             <div className=" text-center">
               <Link
                 href={""}
-                className="   inline-block text-[14px] w-[130px] h-[27px]  mr-[5px] ml-[20px] text-[#878787]"
+                className="   inline-block text-[14px] w-[140px] h-[27px]  mr-[5px] ml-[20px] text-[#878787] font-[IranSans]"
               >
                 هجدهم شهریور، 1400
               </Link>
             </div>
             <div className="w-full flex justify-center">
-              <div className="flex justify-center w-[219px] h-[27px]">
+              <div className="flex justify-center w-[240px] h-[27px]">
                 <Link
                   href={""}
-                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787]"
+                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
                 >
                   تبلیغات سایت
                 </Link>
                 <Link
                   href={""}
-                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787]"
+                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
                 >
                   درباره ما
                 </Link>
                 <Link
                   href={""}
-                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787]"
+                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
                 >
                   تماس با ما
                 </Link>
@@ -138,15 +138,15 @@ const Header = () => {
       </div>
       {value && (
         <div className="SearchFiled bg-[#f0f2f5] w-full py-[20px]">
-          <div className="w-[290px] bg-[#ffffff] mx-auto text-center  ">
-            <div className="hover:outline outline-[#3858f6] w-fit rounded-md">
+          <div className="group w-[290px] bg-[#ffffff] mx-auto text-center  ">
+            <div className="outline outline-[#3858f6] w-fit rounded-md">
               <button className="rounded-r-md px-[8px] ">
-                <Seaech className="  w-[14px] h-[14px] " />
+                <Seaech className="   w-[14px] h-[14px] " />
               </button>
               <input
                 type="text"
                 placeholder="..جستجو"
-                className=" outline-none rounded-l-md w-[260px] h-[50px] rounded-md"
+                className=" outline-none rounded-l-md w-[260px] h-[50px] rounded-md "
               />
             </div>
           </div>
