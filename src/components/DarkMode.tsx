@@ -6,6 +6,7 @@ const DarkMode = () => {
     setDarkMode(!darkMode);
   };
   useEffect(() => {
+    console.log("darkMode:" ,darkMode)
     if (darkMode) {
       localStorage.setItem("darkMode", "true");
       window.document.documentElement.classList.add("dark");
@@ -18,8 +19,8 @@ const DarkMode = () => {
   }, [darkMode]);
 
   return (
-    <div className="bg-red-300">
-      <button className="">Dark MODE</button>{" "}
+    <div className="bg-red-300 cursor-pointer " onClick={SwitchMode}>
+     {!darkMode ? "Darkmode" :"LightMode"}
     </div>
   );
 };
