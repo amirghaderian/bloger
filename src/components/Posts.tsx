@@ -12,7 +12,7 @@ const Posts = () => {
           <Image
             src={RightPost}
             alt={"تولید محتوا"}
-            className=" group-hover:scale-110 transition duration-300 "
+            className=" group-hover:scale-110 transition duration-300 rounded-lg  p-[4px]"
           />
           <div className="PostContent  w-[260px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%] px-[20px] pb-[20px] text-white">
             <h2 className="text-[15px]">تولید محتوا</h2>

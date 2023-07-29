@@ -1,4 +1,5 @@
 import Categories from "@/components/Categories";
+import DarkMode from "@/components/DarkMode";
 import Header from "@/components/Header";
 import MostVisitedPosts from "@/components/MostVisitedPosts";
 import News from "@/components/News";
@@ -14,6 +15,7 @@ const Home = () => {
       <Categories/>
       <MostVisitedPosts/>
       <News/>
+      <DarkMode/>
     </>
   );
 };
