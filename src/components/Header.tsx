@@ -21,42 +21,42 @@ const Header = () => {
     setValue(!value);
   };
   return (
-    <header className="MainHeader w-full   ">
-      <div className="HeaderTop flex  w-full pb-[20px] bg-[#f0f2f5] ">
-        <div className="Container   w-full justify-center pt-[12px]">
-          <div className=" w-full    ">
-            <div className=" text-center">
+    <header className="MainHeader w-full">
+      <div className="HeaderTop flex w-full pb-[20px] bg-[#f0f2f5] ">
+        <div className="Container  w-full justify-center pt-[12px]">
+          <div className=" w-full md:flex ">
+            <div className="text-center md:mx-[24px]">
               <Link
                 href={""}
-                className="   inline-block text-[14px] w-[140px] h-[27px]  mr-[5px] ml-[20px] text-[#878787] font-[IranSans]"
+                className="inline-block text-[14px] w-[140px] h-[27px]  mr-[5px] ml-[20px] text-[#878787] font-[IranSans]"
               >
                 هجدهم شهریور، 1400
               </Link>
             </div>
             <div className="w-full flex justify-center">
-              <div className="flex justify-center w-[240px] h-[27px]">
+              <div className="flex justify-center md:items-end w-[240px] h-[27px]">
                 <Link
                   href={""}
-                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
+                  className=" hover:text-[#3858f6]  inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
                 >
                   تبلیغات سایت
                 </Link>
                 <Link
                   href={""}
-                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
+                  className=" hover:text-[#3858f6]  inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
                 >
                   درباره ما
                 </Link>
                 <Link
                   href={""}
-                  className=" hover:text-[#3858f6]   inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
+                  className=" hover:text-[#3858f6]  inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
                 >
                   تماس با ما
                 </Link>
               </div>
             </div>
 
-            <div className="Icons w-full flex justify-center">
+            <div className="Icons w-full flex justify-center md:items-end">
               <div className=" flex justify-center  w-[300px] text-end">
                 <div className="flex justify-center  h-[24px]">
                   <Github className="hover:text-[#3858f6] mx-[10px]" />
@@ -76,14 +76,18 @@ const Header = () => {
         </div>
       </div>
       <div className="HeaderMiddle flex w-full justify-center py-[20px] bg-[#ffffff]">
-        <div className="Container">
+        <div className="Container md:flex md:w-[720px]">
           <div className=" flex w-[290px] mx-auto  justify-center  pb-[20px]">
             <div className="Logo w-[141px] flex items-center ">
               <Image src={Logo} alt="Logo" className="w-[141px] h-[37px]" />
             </div>
           </div>
-          <div className="Banner w-full bg-amber-200 flex justify-end ">
-            <Image src={Banner} alt={"Banner"} className="w-[290px] h-[37px]" />
+          <div className="Banner w-full  bg-amber-200 flex justify-end ">
+            <Image
+              src={Banner}
+              alt={"Banner"}
+              className="w-[290px] md:w-full md:h-full h-[37px]"
+            />
           </div>
         </div>
       </div>
@@ -110,13 +114,25 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="LeftItems flex items-center  w-[290px] justify-center h-[80px] ">
-          <div className="Container flex items-center h-[40px]">
-            <div className=" SearchItem rounded-3xl bg-[#f0f2f5] w-[40px] h-[40px] flex justify-center items-center">
+        <div className="LeftItems flex items-center  w-[290px] md:w-[690px] justify-center md:justify-end h-[80px] ">
+          <div className=" Container flex items-center h-[40px] ">
+            <div className="  SearchItem rounded-3xl bg-[#f0f2f5] w-[40px] h-[40px] flex justify-center items-center md:hidden">
               <button onClick={SearchHandler}>
                 {!value && <Seaech className="  w-[14px] h-[14px]    " />}
                 {value && <Close className=" w-[13px] h-[15px] " />}
               </button>
+            </div>
+            <div className="hidden md:block group w-[290px] bg-[#ffffff] mx-auto text-center  ">
+              <div className="outline outline-[#f0f2f5] w-fit rounded-md">
+                <button className="rounded-r-md px-[8px] ">
+                  <Seaech className="   w-[14px] h-[14px] " />
+                </button>
+                <input
+                  type="text"
+                  placeholder="..جستجو"
+                  className=" outline-none rounded-l-md w-[260px] h-[50px] rounded-md "
+                />
+              </div>
             </div>
             <div className="w-[40px] h-[40px] flex justify-center items-center rounded-[50%] bg-[#f0f2f5]  hover:bg-[#3858f6] hover:text-white mr-[10px]">
               <Bookmark className="w-[10.5px] h-[14px]" />

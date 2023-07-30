@@ -10,19 +10,19 @@ import lastPost from "../../public/images/MostView/lastPost.jpg";
 const MostVisitedPosts = () => {
   return (
     <div className="MostVisitedPosts w-full h-[1200px] flex justify-center bg-white">
-      <div className="Container w-[320px] px-[15px]  mx-auto">
-        <div className="Title ">
+      <div className="Container w-[320px] md:w-[720px] px-[15px]  mx-auto">
+        <div className="Title  md:flex justify-between items-baseline">
           <div className="Section w-[290px]  mx-auto">
-            <h3 className="font-[VasirBold]"> پربازدید ترین مطالب</h3>
+            <h3 className="font-[VasirBold] md:w-[480px] md:text-[28px]"> پربازدید ترین مطالب</h3>
           </div>
-          <div className="w-[290px] h-[32px] mt-[20px]  mx-auto">
-            <Link href={""} className="font-[IranSans] text-[#3858F6]">
+          <div className="w-[290px] h-[32px] mt-[20px]  mx-auto text-left">
+            <Link href={""} className="font-[IranSans] text-[#3858F6] text-left">
               مشاهده همه
             </Link>
           </div>
         </div>
-        <div className=" w-[300px]  h-[1101px] flex-col">
-          <div className="  w-[300px] h-[110px] my-[20px]  flex flex-wrap text-center ">
+        <div className=" w-[300px] md:w-full  h-[1101px] flex-col">
+          <div className="  w-full h-[110px] my-[20px]  flex flex-wrap  text-center ">
             <button className="font-[IranSans] px-[13px] m-[5px] h-[46px] border border-gray-400 rounded-lg text-[#65676B]">
               وب و اینترنت
             </button>
@@ -37,7 +37,7 @@ const MostVisitedPosts = () => {
             </button>
           </div>
           <div className="Posts w-[290px]  h-[650px]    ">
-            <div className="Post1 w-[290px] h-[151.5px] flex pb-[30px]  border-b border-[#8e9196]">
+            <div className="Post1 w-[290px] md:w-[690px] h-[151.5px] flex pb-[30px]  border-b border-[#8e9196]">
               <div className="PostImage ml-[20px] group overflow-hidden rounded-lg">
                 <Image
                   src={post1}
