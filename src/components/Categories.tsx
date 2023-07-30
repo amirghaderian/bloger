@@ -43,9 +43,10 @@ const Categories = () => {
                 alt={""}
                 className=" w-[135px] h-[135px]  mx-auto  group-hover:scale-110  transition duration-300 rounded-xl mt-[10px] "
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]   w-[135px] h-[46.5px] text-center">
                 <h2 className="text-white font-[VasirBold]">حیوانات خانگی</h2>
               </div>
+
             </div>
             <div className="group w-[155px] h-[155px] relative   overflow-hidden rounded-xl ">
               <Image
@@ -53,7 +54,7 @@ const Categories = () => {
                 alt={""}
                 className="w-[135px] h-[135px] mx-auto  group-hover:scale-110  transition duration-300 rounded-xl  mt-[10px] "
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]  w-[135px] h-[46.5px]  text-center">
                 <h2 className="text-white font-[VasirBold]">فناوری اطلاعات </h2>
               </div>
             </div>
@@ -63,7 +64,7 @@ const Categories = () => {
                 alt={""}
                 className="w-[135px] h-[135px] mx-auto group-hover:scale-110  transition duration-300 rounded-xl   mt-[10px] "
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]   w-[135px] h-[46.5px]  text-center">
                 <h2 className="text-white font-[VasirBold]">
                   {" "}
                   رستوران و کافی شاپ
@@ -76,7 +77,7 @@ const Categories = () => {
                 alt={"نرم افزار"}
                 className="w-[135px] h-[135px] mx-auto group-hover:scale-110  transition duration-300 rounded-xl  mt-[10px] opacity-80"
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]   w-[135px] h-[46.5px]  text-center">
                 <h2 className="text-white font-[VasirBold]"> نرم افزار</h2>
               </div>
             </div>
@@ -86,7 +87,7 @@ const Categories = () => {
                 alt={""}
                 className="w-[135px] h-[135px] mx-auto group-hover:scale-110  transition duration-300 rounded-xl   mt-[10px]   "
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]   w-[135px] h-[46.5px] text-center">
                 <h2 className="text-white font-[VasirBold]"> ورزش</h2>
               </div>
             </div>
@@ -96,7 +97,7 @@ const Categories = () => {
                 alt={""}
                 className="w-[135px] h-[135px] mx-auto  group-hover:scale-110  transition duration-300 rounded-xl mt-[10px] "
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]  w-[135px] h-[46.5px] text-center">
                 <h2 className="text-white font-[VasirBold]">گردشگری </h2>
               </div>
             </div>
@@ -106,7 +107,7 @@ const Categories = () => {
                 alt={""}
                 className="w-[135px] h-[135px] mx-auto group-hover:scale-110  transition duration-300 rounded-xl  mt-[10px] "
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]  w-[135px] h-[46.5px]  text-center">
                 <h2 className="text-white font-[VasirBold]">سبک زندگی </h2>
               </div>
             </div>
@@ -117,7 +118,7 @@ const Categories = () => {
                 alt={""}
                 className="w-[135px] h-[135px] mx-auto group-hover:scale-110  transition duration-300 rounded-xl  mt-[10px]"
               />
-              <div className="absolute bottom-3  w-[135px] h-[46.5px] left-3 text-center">
+              <div className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%]  w-[135px] h-[46.5px]  text-center">
                 <h2 className="text-white font-[VasirBold]">پزشکی </h2>
               </div>
             </div>

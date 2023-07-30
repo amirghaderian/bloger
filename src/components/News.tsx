@@ -20,16 +20,16 @@ const News = () => {
         <h3 className="text-[18px] px-[15px] text-white font-[VasirBold]">
           اخبار حوزه فناوری
         </h3>
-        <div className="Container w-full">
-          <div className="Post1 w-full h-[490px] bg-gray-900 px-[15px] rounded-lg mt-[30px]">
+        <div className="Container w-full  ">
+          <div className="Post1  group overflow-hidden w-full h-[490px] bg-gray-900 px-[15px] rounded-lg mt-[30px] ">
             <Image
               src={post1}
               alt=""
-              className="w-[290px] h-[241px] rounded-lg"
+              className=" group-hover:scale-110 transition duration-300 w-[290px] h-[241px] rounded-lg mx-auto"
             />
             <div className="Content mt-[30px]">
               <h2 className="text-[#D93E40] text-[15px]">حوزهIT</h2>
-              <h3 className="text-white text-[20px] font-[VasirBold]">
+              <h3 className="text-white text-[16px] font-[VasirBold]">
                 بررسی لپ تاپ هواوی میت بوک D 14 [با بررسی ویدئویی]
               </h3>
             </div>
@@ -51,20 +51,86 @@ const News = () => {
               </p>
             </div>
           </div>
-
-          <div className="Post2 w-full h-[335px] bg-gray-900 px-[15px] rounded-lg mt-[30px] relative">
-            <Image
-              src={post2}
-              alt=""
-              className="w-[290px] h-[192px] rounded-lg"
-            />
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <Play />
+          <div className="Post2 w-full ">
+            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg  mx-auto">
+              <Image
+                src={post2}
+                alt={""}
+                className=" group-hover:scale-110 transition duration-300 rounded-lg  "
+              />
+              <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
+                <Play className="text-white  absolute top-[15px]  right-[15px]" />
+              </div>
             </div>
             <div className="Content mt-[30px]">
-              <h2 className="text-[#D93E40] text-[15px]">برنامه نویسی</h2>
-              <h3 className="text-white text-[20px] font-[VasirBold]">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+                برنامه نویسی
+              </h2>
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]">
                 بررسی کامپیوتر بدون کیس ام اس آی Pro 22X 10M [با بررسی ویدیویی]
+              </h3>
+            </div>
+          </div>
+
+          <div className="Post3  mt-[30px]">
+            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg mx-auto ">
+              <Image
+                src={post3}
+                alt={""}
+                className=" group-hover:scale-110 transition duration-300 rounded-lg  p-[4px] "
+              />
+              <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
+                <Play className="text-white  absolute top-[15px]  right-[15px]" />
+              </div>
+            </div>
+            <div className="Content mt-[30px]">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+              فناوری و اطلاعات
+              </h2>
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]">
+                بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
+              </h3>
+            </div>
+          </div>
+
+          <div className="Post4  mt-[30px]">
+            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg  mx-auto ">
+              <Image
+                src={post4}
+                alt={""}
+                className=" group-hover:scale-110 transition duration-300 rounded-lg  p-[4px] "
+              />
+              <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
+                <Play className="text-white  absolute top-[15px]  right-[15px]" />
+              </div>
+            </div>
+            <div className="Content mt-[30px]">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+              حوزه آی تی
+              </h2>
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]">
+                بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
+              </h3>
+            </div>
+          </div>
+
+          <div className="Post5  mt-[30px]">
+            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg mx-auto ">
+              <Image
+                src={post5}
+                alt={""}
+                className=" group-hover:scale-110 transition duration-300 rounded-lg  p-[4px] "
+              />
+              <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
+                <Play className="text-white  absolute top-[15px]  right-[15px]" />
+              </div>
+            </div>
+            <div className="Content mt-[30px]">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+                نرم افزارهای کاربردی
+              </h2>
+              <h3 className="text-white  text-[16px] font-[VasirBold] px-[15px]">
+                بررسی آیپد پرو 2021 اپل [با بررسی ویدئویی]
               </h3>
             </div>
           </div>
