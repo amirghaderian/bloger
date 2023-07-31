@@ -44,7 +44,7 @@ const Categories = () => {
     infinite: true,
     speed: 500,
     slidesToShow: slideToShows,
-    slidesToScroll: 1,
+    slidesToScroll: slideToShows,
   };
   return (
     <div className="w-full  h-[357px] bg-[#f0f2f5]">

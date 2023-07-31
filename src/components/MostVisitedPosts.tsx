@@ -46,15 +46,15 @@ const MostVisitedPosts = () => {
                 />
               </div>
               <div className="PostContent">
-                <p className="w-[170px] font-[IranSans] text-[#D93E40]">
+                <p className="w-[170px]  font-[IranSans] text-[#D93E40]">
                   موبایل
                 </p>
-                <h2 className="w-[170px] text-[18px] font-[VasirBold]">
+                <h2 className="w-[170px] md:w-[570px] text-[18px] font-[VasirBold]">
                   بهترین برنامه های فشرده سازی فایل برای آیفون
                 </h2>
               </div>
             </div>
-            <div className="Post2 w-[290px] h-[161.5px] flex py-[30px]  border-b border-[#8e9196]">
+            <div className="Post2 w-[290px] md:w-[690px] h-[161.5px] flex py-[30px]  border-b border-[#8e9196]">
               <div className="PostImage ml-[20px]  group overflow-hidden rounded-lg">
                 <Image
                   src={post2}
@@ -66,12 +66,12 @@ const MostVisitedPosts = () => {
                 <p className="w-[170px] font-[IranSans] text-[#D93E40]">
                   نرم افزار کاربردی
                 </p>
-                <h2 className="w-[170px] text-[18px] font-[VasirBold]">
+                <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold]">
                   بهترین لوازم جانبی برای iPad جدید شما
                 </h2>
               </div>
             </div>
-            <div className="Post3 w-[290px] h-[161.5px] flex py-[30px]  border-b border-[#8e9196]">
+            <div className="Post3 w-[290px]  md:w-[690px] h-[161.5px] flex py-[30px]  border-b border-[#8e9196]">
               <div className="PostImage ml-[20px]  group overflow-hidden rounded-lg">
                 <Image
                   src={post3}
@@ -83,12 +83,12 @@ const MostVisitedPosts = () => {
                 <p className="w-[170px] font-[IranSans] text-[#D93E40]">
                   کسب و کار
                 </p>
-                <h2 className="w-[170px] text-[18px] font-[VasirBold]">
+                <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold]">
                   ۱۳ زبان به آپدیت جدید کلاب‌هاوس اضافه شد
                 </h2>
               </div>
             </div>
-            <div className="post4 w-[290px] h-[161.5px] flex py-[30px] ">
+            <div className="post4 w-[290px] md:w-[690px] h-[161.5px] flex py-[30px] ">
               <div className="postImage ml-[20px]  group overflow-hidden rounded-lg">
                 <Image
                   src={post4}
@@ -100,21 +100,21 @@ const MostVisitedPosts = () => {
                 <p className="w-[170px] font-[IranSans] text-[#D93E40]">
                   گوگل
                 </p>
-                <h2 className="w-[170px] text-[18px] font-[VasirBold]">
+                <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold]">
                 چگونه صفحه اصلی گوگل کروم خود را با GIF شخصی سازی کنیم؟
                 </h2>
               </div>
             </div>
 
-            <div className="LastPost group w-[290px] h-[246px] mt-[40px] relative overflow-hidden rounded-lg ">
+            <div className="LastPost group w-[290px]  md:w-[690px] md:h-[587px] h-[246px] mt-[40px] relative overflow-hidden rounded-lg ">
               <Image
                 src={lastPost}
                 alt={" اپل"}
                 className=" group-hover:scale-110 transition duration-300 "
               />
-              <div className="PostContent  w-[260px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10%] px-[20px] pb-[20px] text-white">
+              <div className="PostContent  w-[260px] absolute top-1/2 md:top-[80%] md:left-[80%] left-1/2 transform -translate-x-1/2 -translate-y-[10%] px-[20px] pb-[20px] text-white">
                 <h2 className="text-[15px]"> برند اپل</h2>
-                <p className="text-[20px]  hover:underline delay-1000 w-[240px]">
+                <p className="text-[20px]  hover:underline delay-1000 w-[240px] md:w-[490px]">
                   آیفون SE متوقف شده است، اما همچنان آن را می فروشند!
                 </p>
               </div>
