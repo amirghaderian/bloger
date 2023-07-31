@@ -56,7 +56,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="Icons w-full flex justify-center md:items-end">
+            <div className="Icons w-full flex justify-center md:items-end xl:justify-end">
               <div className=" flex justify-center lg:justify-end w-[300px] text-end">
                 <div className="flex justify-center  h-[24px]">
                   <Github className="hover:text-[#3858f6] mx-[10px]" />
@@ -76,40 +76,40 @@ const Header = () => {
         </div>
       </div>
       <div className="HeaderMiddle flex w-full justify-center py-[20px] bg-[#ffffff]">
-        <div className="Container md:flex md:w-[720px] lg:w-[960px]">
+        <div className="Container md:flex md:w-[720px] lg:w-[960px] xl:w-[1260px]">
           <div className=" flex w-[290px] mx-auto  justify-center  pb-[20px] lg:pb-0 lg:mx-0 lg:w-[210px]">
             <div className="Logo w-[141px] flex items-center ">
               <Image src={Logo} alt="Logo" className="w-[141px] h-[37px]" />
             </div>
           </div>
-          <div className="Banner w-full   flex justify-end lg:w-[720px] lg:px-[15px] lg:mr-[30px] ">
+          <div className="Banner w-full   flex justify-end lg:w-[720px] lg:px-[15px] lg:mr-[30px] xl:w-[900px] xl:mr-[100px] ">
             <Image
               src={Banner}
               alt={"Banner"}
-              className="w-[290px] md:w-full md:h-full lg:w-[690px] h-[37px]"
+              className="w-[290px] md:w-full md:h-full lg:w-[690px] h-[37px] xl:w-[728px]"
             />
           </div>
         </div>
       </div>
       <hr className="text-red-600 w-full block" />
       <div className="HeaderBottom h-[80px] flex items-center w-full justify-center  ">
-        <div className="RightMenu  h-[80px]  pl-[110px] bg-cyan-400 hidden ">
-          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
+        <div className="RightMenu  h-[80px] hidden xl:flex items-center ">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block">
             خانه
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block xl:w-[120px]">
             طرح بندی ها
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block">
             مگامنو
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block">
             صفحات
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block xl:w-[160px]">
             نسخه سبک زندگی
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block xl:w-[170px]">
             نسخه تکنولوژی
           </Link>
         </div>
@@ -146,7 +146,7 @@ const Header = () => {
               alt={"avatar"}
               className="rounded-[50%] w-[40px] h-[40px] mx-2"
             />
-            <div className="w-[40px] h-[40px] flex justify-center items-center rounded-[50%] bg-[#f0f2f5]  hover:bg-[#3858f6] hover:text-white">
+            <div className="w-[40px] h-[40px] flex justify-center items-center rounded-[50%] bg-[#f0f2f5]  hover:bg-[#3858f6] hover:text-white xl:hidden">
               <Bars className="w-[12.25px] h-[14px] " />
             </div>
           </div>
