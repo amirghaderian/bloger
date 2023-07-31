@@ -16,7 +16,7 @@ import {
 const News = () => {
   return (
     <div className="w-full  py-[60px] md:mt-[300px] bg-[#1a1a1a] flex justify-center lg:mt-0">
-      <div className="Container1 md:w-[720px] lg:w-[960px]">
+      <div className="Container1 md:w-[720px] lg:w-[960px] ">
         <h3 className="text-[18px] md:text-[28px] px-[15px] text-white font-[VasirBold]">
           اخبار حوزه فناوری
         </h3>
@@ -55,6 +55,7 @@ const News = () => {
               </div>
             </div>
           </div>
+          <div className="Post2Till5 flex flex-wrap lg:w-[480px]">
           <div className="Post2 w-full md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px]">
             <div className=" Container group w-[285px] md:w-[330px] relative overflow-hidden rounded-lg  mx-auto  lg:w-[240px] ">
               <Image
@@ -97,8 +98,8 @@ const News = () => {
             </div>
           </div>
 
-          <div className="Post4  mt-[30px] md:w-[360px] lg:w-[140px] lg:h-[303px] lg:mt-[30px]">
-            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg md:w-[330px]  mx-auto lg:w-[140px]">
+          <div className="Post4  mt-[30px] md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px]">
+            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg md:w-[330px]  mx-auto  lg:w-[240px]">
               <Image
                 src={post4}
                 alt={""}
@@ -137,6 +138,7 @@ const News = () => {
                 بررسی آیپد پرو 2021 اپل [با بررسی ویدئویی]
               </h3>
             </div>
+          </div>
           </div>
         </div>
       </div>
