@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         custom: ['VasirBold', 'sans-serif'],
       },
+      screens:{lg:"992px",xl:"1200px"},
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

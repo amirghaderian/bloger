@@ -15,17 +15,17 @@ import {
 } from "react-icons/fa";
 const News = () => {
   return (
-    <div className="w-full  py-[60px] md:mt-[300px] bg-[#1a1a1a] flex justify-center">
-      <div className="Container1 md:w-[720px] ">
+    <div className="w-full  py-[60px] md:mt-[300px] bg-[#1a1a1a] flex justify-center lg:mt-0">
+      <div className="Container1 md:w-[720px] lg:w-[960px]">
         <h3 className="text-[18px] md:text-[28px] px-[15px] text-white font-[VasirBold]">
           اخبار حوزه فناوری
         </h3>
-        <div className="Container w-full md:flex flex-wrap ">
-          <div className="Post1  group overflow-hidden w-full h-[490px] md:h-auto  px-[15px] rounded-lg mt-[30px] md:mb-[30px] ">
+        <div className="Container w-full md:flex flex-wrap  ">
+          <div className="Post1  group overflow-hidden w-full h-[490px] md:h-auto  px-[15px] rounded-lg mt-[30px] md:mb-[30px] lg:w-[480px] lg:h-[583px] ">
             <Image
               src={post1}
               alt=""
-              className=" group-hover:scale-110 transition duration-300 w-[290px] md:w-full md:h-[575px] h-[241px] rounded-lg mx-auto"
+              className=" group-hover:scale-110 transition duration-300 w-[290px] md:w-full md:h-[575px] h-[241px] rounded-lg mx-auto lg:h-[375px]"
             />
             <div className="Content mt-[30px]">
               <h2 className="text-[#D93E40] text-[15px]">حوزهIT</h2>
@@ -55,12 +55,12 @@ const News = () => {
               </div>
             </div>
           </div>
-          <div className="Post2 w-full md:w-[360px] ">
-            <div className=" Container group w-[285px] md:w-[330px] relative overflow-hidden rounded-lg  mx-auto">
+          <div className="Post2 w-full md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px]">
+            <div className=" Container group w-[285px] md:w-[330px] relative overflow-hidden rounded-lg  mx-auto  lg:w-[240px] ">
               <Image
                 src={post2}
                 alt={""}
-                className=" group-hover:scale-110 transition duration-300 rounded-lg  md:w-[330px]  "
+                className=" group-hover:scale-110 transition duration-300 rounded-lg  md:w-[330px]  lg:w-[210px]  "
               />
               <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
                 <Play className="text-white  absolute top-[15px]  right-[15px]" />
@@ -70,18 +70,18 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 برنامه نویسی
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] md:w-[350px]">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] md:w-[350px] lg:w-fit">
                 بررسی کامپیوتر بدون کیس ام اس آی Pro 22X 10M [با بررسی ویدیویی]
               </h3>
             </div>
           </div>
 
-          <div className="Post3  mt-[30px] md:mt-0 md:w-[360px]">
-            <div className=" Container group w-[285px]  md:w-[330px] relative overflow-hidden rounded-lg mx-auto ">
+          <div className="Post3  mt-[30px] md:mt-0 md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px]">
+            <div className=" Container group w-[285px]  md:w-[330px] relative overflow-hidden rounded-lg mx-auto lg:w-[240px] ">
               <Image
                 src={post3}
                 alt={""}
-                className=" group-hover:scale-110 transition duration-300 rounded-lg md:w-[330px] "
+                className=" group-hover:scale-110 transition duration-300 rounded-lg md:w-[330px] lg:w-[210px] "
               />
               <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
                 <Play className="text-white  absolute top-[15px]  right-[15px]" />
@@ -91,18 +91,18 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 فناوری و اطلاعات
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]  lg:w-fit">
                 بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
               </h3>
             </div>
           </div>
 
-          <div className="Post4  mt-[30px] md:w-[360px]">
-            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg md:w-[330px]  mx-auto ">
+          <div className="Post4  mt-[30px] md:w-[360px] lg:w-[140px] lg:h-[303px] lg:mt-[30px]">
+            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg md:w-[330px]  mx-auto lg:w-[140px]">
               <Image
                 src={post4}
                 alt={""}
-                className=" group-hover:scale-110 transition duration-300 rounded-lg md:w-[330px] "
+                className=" group-hover:scale-110 transition duration-300 rounded-lg md:w-[330px] lg:w-[210px]  "
               />
               <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
                 <Play className="text-white  absolute top-[15px]  right-[15px]" />
@@ -112,18 +112,18 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 حوزه آی تی
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] lg:w-fit">
                 بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
               </h3>
             </div>
           </div>
 
-          <div className="Post5  mt-[30px] md:w-[360px]">
-            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg mx-auto md:w-[330px] ">
+          <div className="Post5  mt-[30px] md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px]">
+            <div className=" Container group w-[285px] relative overflow-hidden rounded-lg mx-auto md:w-[330px] lg:w-[240px] ">
               <Image
                 src={post5}
                 alt={""}
-                className=" group-hover:scale-110 transition duration-300 rounded-lg md:w-[330px] "
+                className=" group-hover:scale-110 transition duration-300 rounded-lg md:w-[330px] lg:w-[210px] "
               />
               <div className="w-[50px] h-[50px] PostContent  absolute top-[50%] left-1/2 bg-red-500 transform -translate-x-1/2 -translate-y-[50%] px-[20px] pb-[20px] text-white flex justify-center items-center  rounded-[50%]">
                 <Play className="text-white  absolute top-[15px]  right-[15px]" />
@@ -133,7 +133,7 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 نرم افزارهای کاربردی
               </h2>
-              <h3 className="text-white  text-[16px] font-[VasirBold] px-[15px]">
+              <h3 className="text-white  text-[16px] font-[VasirBold] px-[15px] lg:w-fit">
                 بررسی آیپد پرو 2021 اپل [با بررسی ویدئویی]
               </h3>
             </div>

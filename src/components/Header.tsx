@@ -24,7 +24,7 @@ const Header = () => {
     <header className="MainHeader w-full">
       <div className="HeaderTop flex w-full pb-[20px] bg-[#f0f2f5] ">
         <div className="Container  w-full justify-center pt-[12px]">
-          <div className=" w-full md:flex ">
+          <div className=" w-full md:flex  lg:items-baseline">
             <div className="text-center md:mx-[24px]">
               <Link
                 href={""}
@@ -33,8 +33,8 @@ const Header = () => {
                 هجدهم شهریور، 1400
               </Link>
             </div>
-            <div className="w-full flex justify-center">
-              <div className="flex justify-center md:items-end w-[240px] h-[27px]">
+            <div className="w-full flex justify-center lg:justify-start">
+              <div className="flex justify-center md:items-end w-[240px] lg:w-[304px] h-[27px] ">
                 <Link
                   href={""}
                   className=" hover:text-[#3858f6]  inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
@@ -43,7 +43,7 @@ const Header = () => {
                 </Link>
                 <Link
                   href={""}
-                  className=" hover:text-[#3858f6]  inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans]"
+                  className=" hover:text-[#3858f6]  inline-block text-[14px] mx-[5px] text-[#878787] font-[IranSans] lg:mx-[37px]"
                 >
                   درباره ما
                 </Link>
@@ -57,7 +57,7 @@ const Header = () => {
             </div>
 
             <div className="Icons w-full flex justify-center md:items-end">
-              <div className=" flex justify-center  w-[300px] text-end">
+              <div className=" flex justify-center lg:justify-end w-[300px] text-end">
                 <div className="flex justify-center  h-[24px]">
                   <Github className="hover:text-[#3858f6] mx-[10px]" />
                 </div>
@@ -76,17 +76,17 @@ const Header = () => {
         </div>
       </div>
       <div className="HeaderMiddle flex w-full justify-center py-[20px] bg-[#ffffff]">
-        <div className="Container md:flex md:w-[720px]">
-          <div className=" flex w-[290px] mx-auto  justify-center  pb-[20px]">
+        <div className="Container md:flex md:w-[720px] lg:w-[960px]">
+          <div className=" flex w-[290px] mx-auto  justify-center  pb-[20px] lg:pb-0 lg:mx-0 lg:w-[210px]">
             <div className="Logo w-[141px] flex items-center ">
               <Image src={Logo} alt="Logo" className="w-[141px] h-[37px]" />
             </div>
           </div>
-          <div className="Banner w-full  bg-amber-200 flex justify-end ">
+          <div className="Banner w-full   flex justify-end lg:w-[720px] lg:px-[15px] lg:mr-[30px] ">
             <Image
               src={Banner}
               alt={"Banner"}
-              className="w-[290px] md:w-full md:h-full h-[37px]"
+              className="w-[290px] md:w-full md:h-full lg:w-[690px] h-[37px]"
             />
           </div>
         </div>
@@ -114,7 +114,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="LeftItems flex items-center  w-[290px] md:w-[690px] justify-center md:justify-end h-[80px] ">
+        <div className="LeftItems flex items-center  w-[290px] md:w-[690px] justify-center md:justify-end h-[80px] lg:w-[960px] lg:px-[15px] ">
           <div className=" Container flex items-center h-[40px] ">
             <div className="  SearchItem rounded-3xl bg-[#f0f2f5] w-[40px] h-[40px] flex justify-center items-center md:hidden">
               <button onClick={SearchHandler}>
