@@ -7,7 +7,7 @@ import News from "@/components/News";
 import Posts from "@/components/Posts";
 import TopSign from "@/components/TopSign";
 import CustomCursor from "@/components/cursor";
-
+import Example from "@/components/example";
 const Home = () => {
   return (
     <>

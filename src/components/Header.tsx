@@ -22,8 +22,8 @@ const Header = () => {
   };
   return (
     <header className="MainHeader w-full">
-      <div className="HeaderTop flex w-full pb-[20px] bg-[#f0f2f5] ">
-        <div className="Container  w-full justify-center pt-[12px]">
+      <div className="HeaderTop flex w-full pb-[20px] bg-[#f0f2f5] xl:justify-center ">
+        <div className="Container  w-full justify-center pt-[12px] max-w-[1260px] ">
           <div className=" w-full md:flex  lg:items-baseline">
             <div className="text-center md:mx-[24px]">
               <Link
@@ -56,7 +56,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="Icons w-full flex justify-center md:items-end xl:justify-end">
+            <div className="Icons w-full flex justify-center md:items-end xl:justify-end xl:pl-[15px]">
               <div className=" flex justify-center lg:justify-end w-[300px] text-end">
                 <div className="flex justify-center  h-[24px]">
                   <Github className="hover:text-[#3858f6] mx-[10px]" />
@@ -75,14 +75,14 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="HeaderMiddle flex w-full justify-center py-[20px] bg-[#ffffff]">
+      <div className="HeaderMiddle flex w-full justify-center py-[20px] bg-[#ffffff] max-w-[1260px] xl:mx-auto">
         <div className="Container md:flex md:w-[720px] lg:w-[960px] xl:w-[1260px]">
           <div className=" flex w-[290px] mx-auto  justify-center  pb-[20px] lg:pb-0 lg:mx-0 lg:w-[210px]">
             <div className="Logo w-[141px] flex items-center ">
               <Image src={Logo} alt="Logo" className="w-[141px] h-[37px]" />
             </div>
           </div>
-          <div className="Banner w-full   flex justify-end lg:w-[720px] lg:px-[15px] lg:mr-[30px] xl:w-[900px] xl:mr-[100px] ">
+          <div className="Banner w-full   flex justify-end lg:w-[720px] lg:px-[15px] lg:mr-[30px] xl:w-[75%] xl:mr-[100px] ">
             <Image
               src={Banner}
               alt={"Banner"}
@@ -92,24 +92,24 @@ const Header = () => {
         </div>
       </div>
       <hr className="text-red-600 w-full block" />
-      <div className="HeaderBottom h-[80px] flex items-center w-full justify-center  ">
+      <div className="HeaderBottom h-[80px] flex items-center w-full justify-center max-w-[1260px] mx-auto ">
         <div className="RightMenu  h-[80px] hidden xl:flex items-center ">
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block">
             خانه
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block xl:w-[120px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[120px]">
             طرح بندی ها
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block">
             مگامنو
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block">
             صفحات
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block xl:w-[160px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[160px]">
             نسخه سبک زندگی
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] font-[IranSans] text-[15px] inline-block xl:w-[170px]">
+          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[170px]">
             نسخه تکنولوژی
           </Link>
         </div>

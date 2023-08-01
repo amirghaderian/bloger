@@ -48,13 +48,13 @@ const Categories = () => {
   };
   return (
     <div className="w-full  h-[357px] bg-[#f0f2f5]">
-      <div className="Container w-full h-[358px]  py-[30px]">
+      <div className="Container w-full h-[358px]  py-[30px] max-w-[1260px] xl:mx-auto">
         <div className="Slider w-full h-[73px]  mb-[30px]">
-          <div className="Title md:flex items-baseline md:w-[720px] md:mx-auto md:mb-4">
-            <div className="Section w-[290px]  mx-auto">
-              <h3 className="font-[VasirBold] md:text-[28px]">دسته بندی ها</h3>
+          <div className="Title md:flex items-baseline md:w-[720px] md:mx-auto md:mb-4 lg:w-[930px] xl:w-full max-w-[1200px] xl:mx-0">
+            <div className="Section w-[290px]  mx-auto lg:mr-0">
+              <h3 className="font-[VasirBold] md:text-[28px] xl:text-[20px] xl:pr-[35px]">دسته بندی ها</h3>
             </div>
-            <div className="w-[290px] h-[32px] mt-[20px]  mx-auto md:text-left">
+            <div className="w-[290px] h-[32px] mt-[20px]  mx-auto md:text-left lg:ml-0">
               <Link href={""} className="font-[IranSans] text-[#3858F6]">
                 مشاهده همه
               </Link>
