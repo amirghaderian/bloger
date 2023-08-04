@@ -14,11 +14,13 @@ const Posts = () => {
             alt={"تولید محتوا"}
             className=" group-hover:scale-110 transition duration-300 rounded-lg w-full xl:"
           />
-          <div className="PostContent  w-[260px] md:w-[690px] lg:top-[90%] lg:left-[60%]
+          <div
+            className="PostContent  w-[260px] md:w-[690px] lg:top-[90%] lg:left-[60%]
            absolute top-1/2 md:top-3/4 left-1/2  transform -translate-x-1/2 -translate-y-[10%] px-[20px] pb-[20px] text-white xl:top-[85%] xl:left-[50%]
-           xl:w-[500px] ">
+           xl:w-[500px] "
+          >
             <h2 className="text-[15px] w-fit">تولید محتوا</h2>
-            <p className="text-[20px] md:text-[28px] lg:text-[20px] w- hover:underline delay-1000  xl:w-[500px] ">
+            <p className="text-[20px] md:text-[28px] lg:text-[20px] underlinTitr   after:!bg-white  xl:w-[500px]  w-fit ">
               یک چارچوب پنج مرحله‌ای برای هدف‌گیری موثر کلمات کلیدی
             </p>
           </div>
@@ -33,11 +35,12 @@ const Posts = () => {
             />
             <div className="PostContent pt-[20px]">
               <h2 className="text-[15px] mb-[10px] text-[#D93E40]">فضانوردی</h2>
-              <p className="text-[16px] leading-10 hover:underline delay-1000">
+              <p className="text-[16px] leading-10 underlinTitr   w-fit">
                 ماموریتRocketLab
               </p>
             </div>
           </div>
+
           <div className="group w-[260px] md:w-[360px] relative overflow-hidden rounded-lg mt-[30px] md:mt-0  md:px-[15px] lg:w-[480px]  xl:w-[300px] xl:mt-0 ">
             <Image
               src={Post2}
@@ -46,11 +49,12 @@ const Posts = () => {
             />
             <div className="PostContent pt-[20px]">
               <h2 className="text-[15px] mb-[10px] text-[#D93E40]">تکنولوژی</h2>
-              <p className="text-[16px] leading-10 hover:underline delay-1000 ">
+              <p className="text-[16px] leading-10 underlinTitr   w-fit ">
                 واقعیت مجازی یا فناوری هوش مصنوعی
               </p>
             </div>
           </div>
+
           <div className="group w-[260px]  md:w-[360px] relative overflow-hidden rounded-lg mt-[30px]  md:px-[15px] lg:w-[480px] xl:w-[300px] xl:mt-0  ">
             <Image
               src={Post3}
@@ -61,8 +65,8 @@ const Posts = () => {
               <h2 className="text-[15px] mb-[10px] text-[#D93E40]">
                 نرم افزارهای کاربردی
               </h2>
-              <p className="text-[16px] leading-10 hover:underline delay-1000 ">
-                فیس بوک برای تجارت برای بازاریابی
+              <p className="text-[16px] leading-10  underlinTitr   w-fit">
+                فیس بوک برای تجارت
               </p>
             </div>
           </div>
@@ -76,7 +80,7 @@ const Posts = () => {
               <h2 className="text-[15px] mb-[10px] text-[#D93E40]">
                 برنامه نویسی
               </h2>
-              <p className="text-[16px] leading-10 hover:underline  delay-1000 ">
+              <p className="text-[16px] leading-10  underlinTitr   w-fit">
                 کاربرد هوش مصنوعی در برنامه نویسی
               </p>
             </div>

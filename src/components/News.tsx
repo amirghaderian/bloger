@@ -29,7 +29,7 @@ const News = () => {
             />
             <div className="Content mt-[30px]">
               <h2 className="text-[#D93E40] text-[15px]">حوزهIT</h2>
-              <h3 className="text-white text-[16px] font-[VasirBold]">
+              <h3 className="text-white text-[16px] font-[VasirBold] underlinTitr after:!bg-white w-fit">
                 بررسی لپ تاپ هواوی میت بوک D 14 [با بررسی ویدئویی]
               </h3>
             </div>
@@ -71,7 +71,7 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 برنامه نویسی
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] md:w-[350px] lg:w-fit">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] md:w-[350px] lg:w-fit underlinTitr after:!bg-white w-fit">
                 بررسی کامپیوتر بدون کیس ام اس آی Pro 22X 10M [با بررسی ویدیویی]
               </h3>
             </div>
@@ -92,7 +92,7 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 فناوری و اطلاعات
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]  lg:w-fit">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]  lg:w-fit underlinTitr after:!bg-white">
                 بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
               </h3>
             </div>
@@ -113,7 +113,7 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 حوزه آی تی
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] lg:w-fit">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] lg:w-fit underlinTitr after:!bg-white">
                 بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
               </h3>
             </div>
@@ -134,7 +134,7 @@ const News = () => {
               <h2 className="text-[#D93E40] text-[15px] px-[15px]">
                 نرم افزارهای کاربردی
               </h2>
-              <h3 className="text-white  text-[16px] font-[VasirBold] px-[15px] lg:w-fit">
+              <h3 className="text-white  text-[16px] font-[VasirBold] px-[15px] lg:w-full underlinTitr after:!bg-white">
                 بررسی آیپد پرو 2021 اپل [با بررسی ویدئویی]
               </h3>
             </div>

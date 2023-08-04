@@ -56,7 +56,7 @@ const MostVisitedPosts = () => {
                   <p className="w-[170px]  font-[IranSans] text-[#D93E40] ">
                     موبایل
                   </p>
-                  <h2 className="w-[170px] md:w-[570px] text-[18px] font-[VasirBold] lg:w-fit">
+                  <h2 className="w-[170px] md:w-[570px] text-[18px] font-[VasirBold] lg:w-fit underlinTitr">
                     بهترین برنامه های فشرده سازی فایل برای آیفون
                   </h2>
                 </div>
@@ -73,7 +73,7 @@ const MostVisitedPosts = () => {
                   <p className="w-[170px] font-[IranSans] text-[#D93E40]">
                     نرم افزار کاربردی
                   </p>
-                  <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold] lg:w-fit">
+                  <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold] lg:w-fit underlinTitr">
                     بهترین لوازم جانبی برای iPad جدید شما
                   </h2>
                 </div>
@@ -90,7 +90,7 @@ const MostVisitedPosts = () => {
                   <p className="w-[170px] font-[IranSans] text-[#D93E40]">
                     کسب و کار
                   </p>
-                  <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold] lg:w-fit">
+                  <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold] lg:w-fit underlinTitr">
                     ۱۳ زبان به آپدیت جدید کلاب‌هاوس اضافه شد
                   </h2>
                 </div>
@@ -107,9 +107,9 @@ const MostVisitedPosts = () => {
                   <p className="w-[170px] font-[IranSans] text-[#D93E40]">
                     گوگل
                   </p>
-                  <h2 className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold]  lg:w-fit">
+                  <a className="w-[170px] md:w-[570px]  text-[18px] font-[VasirBold]  lg:w-fit underlinTitr">
                     چگونه صفحه اصلی گوگل کروم خود را با GIF شخصی سازی کنیم؟
-                  </h2>
+                  </a>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ const MostVisitedPosts = () => {
               lg:top-[65%] lg:left-[70%] xl:top-[80%]"
               >
                 <h2 className="text-[15px] xl:text-[18px]"> برند اپل</h2>
-                <p className="text-[20px]  hover:underline delay-1000 w-[240px] md:w-[490px] lg:w-[360px] xl:w-[490px]">
+                <p className="text-[20px]  w-[240px] md:w-[490px] lg:w-[360px] xl:w-[490px] underlinTitr after:!bg-white">
                   آیفون SE متوقف شده است، اما همچنان آن را می فروشند!
                 </p>
               </div>
