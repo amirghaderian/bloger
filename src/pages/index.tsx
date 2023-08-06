@@ -8,6 +8,7 @@ import Posts from "@/components/Posts";
 import TopSign from "@/components/TopSign";
 import CustomCursor from "@/components/cursor";
 import Example3 from "@/components/Example3"
+import PostList from "@/components/PostList";
 const Home = () => {
   return (
     <>
@@ -18,8 +19,10 @@ const Home = () => {
       <MostVisitedPosts />
       <News />
       {/* <DarkModeButton /> */}
-      <TopSign/>
-      <Example3/>
+      <PostList/>
+      
+      {/* <TopSign/>
+      <Example3/> */}
     </>
   );
 };

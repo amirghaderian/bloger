@@ -56,7 +56,7 @@ const News = () => {
             </div>
           </div>
           <div className="Post2Till5 flex flex-wrap lg:w-[480px] xl:w-[600px]">
-          <div className="Post2 w-full md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[300px]">
+          <div className="Post2 w-full md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[300px] mx-auto">
             <div className=" Container group w-[285px] md:w-[330px] relative overflow-hidden rounded-lg  mx-auto  lg:w-[240px] xl:w-[270px] ">
               <Image
                 src={post2}
@@ -67,17 +67,17 @@ const News = () => {
                 <Play className="text-white  absolute top-[15px]  right-[15px]" />
               </div>
             </div>
-            <div className="Content mt-[30px]">
-              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+            <div className="Content mt-[30px] mx-auto">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px] w-[290px] mx-auto">
                 برنامه نویسی
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] md:w-[350px] lg:w-fit underlinTitr after:!bg-white w-fit">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] md:w-[350px] lg:w-fit underlinTitr after:!bg-white w-[290px] mx-auto">
                 بررسی کامپیوتر بدون کیس ام اس آی Pro 22X 10M [با بررسی ویدیویی]
               </h3>
             </div>
           </div>
 
-          <div className="Post3  mt-[30px] md:mt-0 md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[285px]">
+          <div className="Post3  mt-[30px] md:mt-0 md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[285px] mx-auto">
             <div className=" Container group w-[285px]  md:w-[330px] relative overflow-hidden rounded-lg mx-auto lg:w-[240px] xl:w-[270px]">
               <Image
                 src={post3}
@@ -89,16 +89,16 @@ const News = () => {
               </div>
             </div>
             <div className="Content mt-[30px]">
-              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px] w-[290px]">
                 فناوری و اطلاعات
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]  lg:w-fit underlinTitr after:!bg-white">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px]  lg:w-fit underlinTitr after:!bg-white w-[290px]">
                 بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
               </h3>
             </div>
           </div>
 
-          <div className="Post4  mt-[30px] md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[300px]">
+          <div className="Post4  mt-[30px] md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[300px] mx-auto">
             <div className=" Container group w-[285px] relative overflow-hidden rounded-lg md:w-[330px]  mx-auto  lg:w-[240px] xl:w-[270px]">
               <Image
                 src={post4}
@@ -110,16 +110,16 @@ const News = () => {
               </div>
             </div>
             <div className="Content mt-[30px]">
-              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px] w-[290px]">
                 حوزه آی تی
               </h2>
-              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] lg:w-fit underlinTitr after:!bg-white">
+              <h3 className="text-white text-[16px] font-[VasirBold] px-[15px] lg:w-fit underlinTitr after:!bg-white w-[290px]">
                 بررسی تلویزیون C1 OLED ال جی [با بررسی ویدیویی]{" "}
               </h3>
             </div>
           </div>
 
-          <div className="Post5  mt-[30px] md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[285px]">
+          <div className="Post5  mt-[30px] md:w-[360px] lg:w-[240px] lg:h-[303px] lg:mt-[30px] xl:w-[285px] mx-auto">
             <div className=" Container group w-[285px] relative overflow-hidden rounded-lg mx-auto md:w-[330px] lg:w-[240px] xl:w-[270px]  ">
               <Image
                 src={post5}
@@ -131,10 +131,10 @@ const News = () => {
               </div>
             </div>
             <div className="Content mt-[30px]">
-              <h2 className="text-[#D93E40] text-[15px] px-[15px]">
+              <h2 className="text-[#D93E40] text-[15px] px-[15px] w-[290px]">
                 نرم افزارهای کاربردی
               </h2>
-              <h3 className="text-white  text-[16px] font-[VasirBold] px-[15px] lg:w-full underlinTitr after:!bg-white">
+              <h3 className="text-white  text-[16px] font-[VasirBold] px-[15px] lg:w-full underlinTitr after:!bg-white w-[290px]">
                 بررسی آیپد پرو 2021 اپل [با بررسی ویدئویی]
               </h3>
             </div>

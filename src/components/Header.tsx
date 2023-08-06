@@ -8,7 +8,7 @@ import {
   FaGithub as Github,
   FaLinkedinIn as Linkedin,
   FaInstagram as Instagram,
-  FaSearch as Seaech,
+  FaSearch as Search,
   FaBookmark as Bookmark,
   FaBell as Bell,
   FaBars as Bars,
@@ -136,14 +136,14 @@ const Header = () => {
           <div className=" Container flex items-center h-[40px] ">
             <div className="  SearchItem rounded-3xl bg-[#f0f2f5] w-[40px] h-[40px] flex justify-center items-center md:hidden">
               <button onClick={SearchHandler}>
-                {!value && <Seaech className="  w-[14px] h-[14px]    " />}
+                {!value && <Search className="  w-[14px] h-[14px]    " />}
                 {value && <Close className=" w-[13px] h-[15px] " />}
               </button>
             </div>
             <div className="hidden md:block group w-[290px] bg-[#ffffff] mx-auto text-center  ">
               <div className="outline outline-[#f0f2f5] w-fit rounded-md">
                 <button className="rounded-r-md px-[8px] ">
-                  <Seaech className="   w-[14px] h-[14px] " />
+                  <Search className="   w-[14px] h-[14px] " />
                 </button>
                 <input
                   type="text"
@@ -175,7 +175,7 @@ const Header = () => {
           <div className="group w-[290px] bg-[#ffffff] mx-auto text-center  ">
             <div className="outline outline-[#3858f6] w-fit rounded-md">
               <button className="rounded-r-md px-[8px] ">
-                <Seaech className="   w-[14px] h-[14px] " />
+                <Search className="   w-[14px] h-[14px] " />
               </button>
               <input
                 type="text"
