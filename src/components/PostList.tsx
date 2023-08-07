@@ -32,7 +32,6 @@ import {
 
 const PostList = () => {
   return (
-<<<<<<< HEAD
     <div className="PostList bg-red-200 w-full h-[100%] ml:w-[540px] ml:mx-auto md:w-[720px] lg:w-[960px] ">
       <div className="Container bg-blue-500 w-full px-[15px] py-[60px] lg:flex flex-wrap">
         <div className="posts lg:w-2/3 lg:pl-[35px]">
@@ -42,46 +41,22 @@ const PostList = () => {
           <div className="post1 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
             <div className="Image1 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
             lg:h-[236px] lg:mt-0 ">
-=======
-    <div className="PostList bg-red-200 w-full h-[100%]] ml:w-[540px] ml:mx-auto md:w-[720px] lg:w-[960px] ">
-      <div className="Container bg-blue-500 w-full px-[15px] py-[60px] lg:flex flex-wrap">
-        <div className="Baner bg-slate-400 ml:w-[510px] md:w-[690px] lg:w-[800px] lg:mx-auto">
-          <div>
-            <Image src={Banner} alt="Banner" />
-          </div>
-        </div>
-        <div className="posts lg:w-2/3 lg:pl-[35px]">
-          <div className="post1 ml:flex ml:items-center md:items-end">
-            <div className="Image1 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px] ">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               <Image
                 src={Post1}
                 alt="Post1"
                 className="group rounded-t-lg group-hover:scale-110 transition duration-300 w-full ml:w-[133px] ml:mr-[20px] ml:h-[222px] ml:rounded-lg
-<<<<<<< HEAD
                  md:w-[295px]  md:h-[284px] lg:w-[223px] lg:h-[236px]"
-=======
-                 md:w-[295px]  md:h-[284px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               />
             </div>
             <div
               className="PostContent1 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t ml:rounded-lg
-<<<<<<< HEAD
             md:w-[375px] lg:h-[236px]  "
-=======
-            md:w-[375px] "
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 گجت
               </span>
               <a href="#" className=" group-hover: underlinTitr">
-<<<<<<< HEAD
                 <h4 className="font-[VasirBold] text-[15px] md:text-[24px] lg:text-[18px]  ">
-=======
-                <h4 className="font-[VasirBold] text-[15px] md:text-[24px]  ">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                   ۱۳ زبان به آپدیت جدید کلاب‌هاوس اضافه شد
                 </h4>
               </a>
@@ -98,42 +73,25 @@ const PostList = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
           <div className="post2 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
             <div className="Image2 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
             lg:h-[236px] lg:mt-0">
-=======
-          <div className="post2 ml:flex ml:items-center md:items-end">
-            <div className="Image2 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               <Image
                 src={Post2}
                 alt="Post2"
                 className="group rounded-t-lg group-hover:scale-110 transition duration-300  w-full  ml:w-[133px] ml:mr-[20px] ml:h-[222px] ml:rounded-lg 
-<<<<<<< HEAD
                  md:w-[295px]  md:h-[284px] lg:w-[223px] lg:h-[236px]"
-=======
-                 md:w-[295px]  md:h-[284px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               />
             </div>
             <div
               className="PostContent2 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t
-<<<<<<< HEAD
              ml:rounded-lg md:w-[375px] lg:h-[236px] "
-=======
-             ml:rounded-lg md:w-[375px] "
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 برنامه نویسی
               </span>
               <a href="#" className=" group-hover: underlinTitr">
-<<<<<<< HEAD
                 <h4 className="font-[VasirBold] text-[15px] md:text-[24px] lg:text-[18px] ">
-=======
-                <h4 className="font-[VasirBold] text-[15px] md:text-[24px] ">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                   هوش مصنوعی به کمک برنامه‌نویسان می‌آید
                 </h4>
               </a>
@@ -150,42 +108,25 @@ const PostList = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
           <div className="post3  ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
             <div className="Image3 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
             lg:h-[236px] lg:mt-0">
-=======
-          <div className="post3  ml:flex ml:items-center md:items-end">
-            <div className="Image3 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               <Image
                 src={Post3}
                 alt="Post3"
                 className="group rounded-t-lg group-hover:scale-110 transition duration-300  w-full ml:w-[133px] ml:mr-[20px] ml:h-[222px] ml:rounded-lg
-<<<<<<< HEAD
                 md:w-[295px]  md:h-[284px] lg:w-[223px] lg:h-[236px]"
-=======
-                md:w-[295px]  md:h-[284px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               />
             </div>
             <div
               className="PostContent3 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t
-<<<<<<< HEAD
              ml:rounded-lg md:w-[375px] lg:h-[236px]"
-=======
-             ml:rounded-lg md:w-[375px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 طراحی اپلیکیشن
               </span>
               <a href="#" className=" group-hover: underlinTitr">
-<<<<<<< HEAD
                 <h4 className="font-[VasirBold] text-[15px] w-[248px] md:text-[24px] lg:text-[18px] ">
-=======
-                <h4 className="font-[VasirBold] text-[15px] w-[248px] md:text-[24px] ">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                   نخستین ویدئو کامل از مک بوک پرو
                 </h4>
               </a>
@@ -202,42 +143,25 @@ const PostList = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
           <div className="post4 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
             <div className="Image4 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
             lg:h-[236px] lg:mt-0">
-=======
-          <div className="post4 ml:flex ml:items-center md:items-end">
-            <div className="Image4 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               <Image
                 src={Post4}
                 alt="Post4"
                 className="group rounded-t-lg group-hover:scale-110 transition duration-300 w-full ml:w-[133px] ml:mr-[20px] ml:h-[222px] ml:rounded-lg
-<<<<<<< HEAD
                 md:w-[295px]  md:h-[284px] lg:w-[223px] lg:h-[236px]"
-=======
-                md:w-[295px]  md:h-[284px] "
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               />
             </div>
             <div
               className="PostContent4 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-<<<<<<< HEAD
             ml:rounded-lg md:w-[375px] lg:h-[236px]"
-=======
-            ml:rounded-lg md:w-[375px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 نرم افزار
               </span>
               <a href="#" className=" group-hover: underlinTitr">
-<<<<<<< HEAD
                 <h4 className="font-[VasirBold] text-[15px] md:text-[24px] lg:text-[18px] ">
-=======
-                <h4 className="font-[VasirBold] text-[15px] md:text-[24px] ">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                   محبوب‌ترین زبان برنامه‌نویسی کدام است؟
                 </h4>
               </a>
@@ -254,42 +178,25 @@ const PostList = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
           <div className="post5 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
             <div className="Image5 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
             lg:h-[236px] lg:mt-0">
-=======
-          <div className="post5 ml:flex ml:items-center md:items-end">
-            <div className="Image5 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               <Image
                 src={Post5}
                 alt="Post5"
                 className="group rounded-t-lg group-hover:scale-110 transition duration-300 w-full ml:w-[133px] ml:mr-[20px] ml:h-[222px] ml:rounded-lg
-<<<<<<< HEAD
                 md:w-[295px]  md:h-[284px] lg:w-[223px] lg:h-[236px]"
-=======
-                md:w-[295px]  md:h-[284px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
               />
             </div>
             <div
               className="PostContent5 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-<<<<<<< HEAD
             ml:rounded-lg md:w-[375px] lg:h-[236px] lg:py-0"
-=======
-            ml:rounded-lg md:w-[375px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 شبکه
               </span>
               <a href="#" className=" group-hover: underlinTitr">
-<<<<<<< HEAD
                 <h4 className="font-[VasirBold] text-[15px] md:text-[24px] lg:text-[18px] ">
-=======
-                <h4 className="font-[VasirBold] text-[15px] md:text-[24px] ">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                   هدف از راه‌اندازی شبکه ملی اطلاعات چیست؟
                 </h4>
               </a>
@@ -306,11 +213,7 @@ const PostList = () => {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
         <div className="Sidebar mt-[40px] lg:w-1/3 lg:mt-0">
-=======
-        <div className="Sidebar mt-[40px] lg:w-1/3">
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
           <div className="Widget mb-[30px] bg-red-300 flex flex-wrap h-[140px]">
             <div className="item1 w-[50%] flex items-center ">
               <div className="image1">
@@ -371,18 +274,10 @@ const PostList = () => {
               <div className="Container mt-[20px]">
                 <div className="BestPost1 flex mb-[20px]">
                   <div className="Image1">
-<<<<<<< HEAD
                     <Image
                       src={Best1}
                       alt={"Best1"}
                       className="rounded-lg ml-[20px] lg:w-[71px] lg:mr-[10px]"
-=======
-                    
-                    <Image
-                      src={Best1}
-                      alt={"Best1"}
-                      className="rounded-lg ml-[20px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                     />
                   </div>
                   <div className="Content1  w-[40%]">
@@ -402,11 +297,7 @@ const PostList = () => {
                     <Image
                       src={Best2}
                       alt={"Best2"}
-<<<<<<< HEAD
                       className="rounded-lg ml-[20px] lg:w-[71px] lg:mr-[10px]"
-=======
-                      className="rounded-lg ml-[20px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                     />
                   </div>
                   <div className="Content2 w-[40%]">
@@ -426,11 +317,7 @@ const PostList = () => {
                     <Image
                       src={Best3}
                       alt={"Best3"}
-<<<<<<< HEAD
                       className="rounded-lg ml-[20px] lg:w-[71px] lg:mr-[10px]"
-=======
-                      className="rounded-lg ml-[20px]"
->>>>>>> fce3447f10d4138fb20f6609ae3ebac6d34e084a
                     />
                   </div>
                   <div className="Content3 w-[40%]">
