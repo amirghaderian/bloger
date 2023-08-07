@@ -8,7 +8,7 @@ import {
   FaGithub as Github,
   FaLinkedinIn as Linkedin,
   FaInstagram as Instagram,
-  FaSearch as Seaech,
+  FaSearch as Search,
   FaBookmark as Bookmark,
   FaBell as Bell,
   FaBars as Bars,
@@ -94,22 +94,40 @@ const Header = () => {
       <hr className="text-red-600 w-full block" />
       <div className="HeaderBottom h-[80px] flex items-center w-full justify-center max-w-[1260px] mx-auto ">
         <div className="RightMenu  h-[80px] hidden xl:flex items-center ">
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block">
+          <Link
+            href={""}
+            className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block"
+          >
             خانه
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[120px]">
+          <Link
+            href={""}
+            className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[120px]"
+          >
             طرح بندی ها
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block">
+          <Link
+            href={""}
+            className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block"
+          >
             مگامنو
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block">
+          <Link
+            href={""}
+            className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block"
+          >
             صفحات
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[160px]">
+          <Link
+            href={""}
+            className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[160px]"
+          >
             نسخه سبک زندگی
           </Link>
-          <Link href={""} className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[170px]">
+          <Link
+            href={""}
+            className="px-[14px] hover:text-[#3858f6] text-[#878787] font-[IranSans] text-[15px] inline-block xl:w-[170px]"
+          >
             نسخه تکنولوژی
           </Link>
         </div>
@@ -118,14 +136,14 @@ const Header = () => {
           <div className=" Container flex items-center h-[40px] ">
             <div className="  SearchItem rounded-3xl bg-[#f0f2f5] w-[40px] h-[40px] flex justify-center items-center md:hidden">
               <button onClick={SearchHandler}>
-                {!value && <Seaech className="  w-[14px] h-[14px]    " />}
+                {!value && <Search className="  w-[14px] h-[14px]    " />}
                 {value && <Close className=" w-[13px] h-[15px] " />}
               </button>
             </div>
             <div className="hidden md:block group w-[290px] bg-[#ffffff] mx-auto text-center  ">
               <div className="outline outline-[#f0f2f5] w-fit rounded-md">
                 <button className="rounded-r-md px-[8px] ">
-                  <Seaech className="   w-[14px] h-[14px] " />
+                  <Search className="   w-[14px] h-[14px] " />
                 </button>
                 <input
                   type="text"
@@ -153,11 +171,11 @@ const Header = () => {
         </div>
       </div>
       {value && (
-        <div className="SearchFiled bg-[#f0f2f5] w-full py-[20px]">
+        <div className="SearchFiled bg-[#f0f2f5] w-full py-[20px] delay-500">
           <div className="group w-[290px] bg-[#ffffff] mx-auto text-center  ">
             <div className="outline outline-[#3858f6] w-fit rounded-md">
               <button className="rounded-r-md px-[8px] ">
-                <Seaech className="   w-[14px] h-[14px] " />
+                <Search className="   w-[14px] h-[14px] " />
               </button>
               <input
                 type="text"
