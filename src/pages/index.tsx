@@ -9,6 +9,9 @@ import TopSign from "@/components/TopSign";
 import CustomCursor from "@/components/cursor";
 import Example3 from "@/components/Example3"
 import PostList from "@/components/PostList";
+import BuyGuide from "@/components/BuyGuide";
+import Instagram from "@/components/Instagram";
+import Footer from "@/components/Footer";
 const Home = () => {
   return (
     <>
@@ -20,7 +23,9 @@ const Home = () => {
       <News />
       {/* <DarkModeButton /> */}
       <PostList/>
-      
+      <BuyGuide/>
+      <Instagram/>
+      <Footer/>
       {/* <TopSign/>
       <Example3/> */}
     </>
