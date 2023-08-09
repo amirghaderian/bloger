@@ -47,7 +47,7 @@ const BuyGuide = () => {
         <div className="Cards">
           <div className="card1&2 lg:flex lg:items-baseline justify-between">
             <div className="card1 xl:w-[48%]">
-              <div className="cardContent group w-full p-[30px] bg-[#ffffff] mx-auto rounded-t-lg lg:w-[450px] xl:w-full">
+              <div className="cardContent group w-full p-[30px] bg-[#ffffff] mx-auto rounded-t-lg lg:w-[450px] xl:w-full shadow-lg">
                 <div className="head text-[#D93E40] text-[15px] font-[IranSans]">
                   خبر جدید
                 </div>
@@ -71,7 +71,7 @@ const BuyGuide = () => {
               </div>
             </div>
             <div className="card2 mt-[30px] w-full lg:w-[450px] xl:w-[48%]">
-              <div className="cardContent  group p-[30px] bg-[#ffffff] mx-auto rounded-t-lg lg:w-[450px] xl:w-full ">
+              <div className="cardContent  group p-[30px] bg-[#ffffff] mx-auto rounded-t-lg lg:w-[450px] xl:w-full shadow-lg ">
                 <div className="head text-[#D93E40] text-[15px] font-[IranSans]">
                   خبر جدید
                 </div>
@@ -118,7 +118,7 @@ const BuyGuide = () => {
             </div>
             <div
               className="PostContent3 bg-white px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-            ml:rounded-lg ml:h-[222px] md:w-[375px] lg:h-[236px] lg:py-0  md:h-[317px] md:mt-[30px] lg:mt-0 xl:w-[450px] xl:h-[250px] "
+            ml:rounded-lg ml:h-[222px] md:w-[375px] lg:h-[236px] lg:py-0  md:h-[317px] md:mt-[30px] lg:mt-0 xl:w-[450px] xl:h-[250px] border-none shadow-lg hover:shadow-xl"
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 موبایل
@@ -130,8 +130,8 @@ const BuyGuide = () => {
                 </h4>
               </a>
               <span className="font-[VasirBold] text-[15px]">نصرت اسراء </span>
-              <div>
-                <div>17 بهمن, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
+              <div className="flex">
+                <div>۱۷ بهمن ۱۴۰۰</div> <div className="mx-[5px]">۳ دقیقه زمان برای مطالعه</div>
               </div>
               <div className="Logos mt-[12px] flex text-[#606770]">
                 <Facebook className="w-[30px] hover:text-[#3858f6]" />
@@ -160,7 +160,7 @@ const BuyGuide = () => {
             </div>
             <div
               className="PostContent4 bg-white px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-            ml:rounded-lg ml:h-[222px] md:w-[375px] md:h-[317px] lg:h-[236px] lg:py-0 xl:w-[450px] xl:h-[250px]"
+            ml:rounded-lg ml:h-[222px] md:w-[375px] md:h-[317px] lg:h-[236px] lg:py-0 xl:w-[450px] xl:h-[250px]  border-none shadow-lg hover:shadow-xl"
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 موبایل
@@ -200,7 +200,7 @@ const BuyGuide = () => {
             </div>
             <div
               className="PostContent5 bg-white px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-            ml:rounded-lg ml:h-[222px] md:w-[375px]  md:h-[317px] lg:h-[236px] lg:py-0 xl:w-[450px] xl:h-[250px] "
+            ml:rounded-lg ml:h-[222px] md:w-[375px]  md:h-[317px] lg:h-[236px] lg:py-0 xl:w-[450px] xl:h-[250px]  border-none shadow-lg hover:shadow-xl "
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 موبایل
@@ -240,7 +240,7 @@ const BuyGuide = () => {
             </div>
             <div
               className="PostContent6 bg-white px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-            ml:rounded-lg ml:h-[222px] md:w-[375px]  md:h-[317px] lg:h-[236px] lg:py-0 xl:w-[450px] xl:h-[250px]"
+            ml:rounded-lg ml:h-[222px] md:w-[375px]  md:h-[317px] lg:h-[236px] lg:py-0 xl:w-[450px] xl:h-[250px]  border-none shadow-lg hover:shadow-xl"
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 موبایل
@@ -266,7 +266,7 @@ const BuyGuide = () => {
 
 
          
-          <div className="MostPUpulerVideo lg:w-1/3 lg:pr-[30px] bg-[#f0f2f5] xl:mt-[30px]">
+          <div className="MostPUpulerVideo lg:w-1/3 lg:pr-[30px] bg-white xl:mt-[30px] shadow-lg ">
           <div className="Widget mb-[30px]  flex flex-wrap h-[140px]">
             <div className="item1 w-[48%] flex items-center bg-white rounded-lg">
               <div className="image1">
