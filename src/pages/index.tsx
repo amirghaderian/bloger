@@ -24,10 +24,10 @@ const Home = () => {
       {/* <DarkModeButton /> */}
       <PostList/>
       <BuyGuide/>
-      <Instagram/>
+       <Instagram/>
       <Footer/>
-      {/* <TopSign/>
-      <Example3/> */}
+      <TopSign/>
+
     </>
   );
 };

@@ -50,7 +50,7 @@ const PostList = () => {
             </div>
             <div
               className="PostContent1 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t ml:rounded-lg
-            md:w-[375px] lg:h-[236px] xl:mr-0 "
+            md:w-[375px] lg:h-[236px] xl:mr-[25px] "
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 گجت
@@ -85,7 +85,7 @@ const PostList = () => {
             </div>
             <div
               className="PostContent2 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t
-             ml:rounded-lg md:w-[375px] lg:h-[236px] xl:mr-0"
+             ml:rounded-lg md:w-[375px] lg:h-[236px] xl:mr-[25px]"
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 برنامه نویسی
@@ -120,7 +120,7 @@ const PostList = () => {
             </div>
             <div
               className="PostContent3 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t
-             ml:rounded-lg md:w-[375px] lg:h-[236px] xl:mr-0"
+             ml:rounded-lg md:w-[375px] lg:h-[236px] xl:mr-[25px]"
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 طراحی اپلیکیشن
@@ -155,7 +155,7 @@ const PostList = () => {
             </div>
             <div
               className="PostContent4 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-            ml:rounded-lg md:w-[375px] lg:h-[236px] xl:mr-0"
+            ml:rounded-lg md:w-[375px] lg:h-[236px] xl:mr-[25px]"
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 نرم افزار
@@ -190,7 +190,7 @@ const PostList = () => {
             </div>
             <div
               className="PostContent5 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px]  w-full ml:mr-[20px] ml:w-[337px] ml:border-t 
-            ml:rounded-lg md:w-[375px] lg:h-[236px] lg:py-0 xl:mr-0"
+            ml:rounded-lg md:w-[375px] lg:h-[236px] lg:py-0 xl:mr-[25px]"
             >
               <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
                 شبکه
