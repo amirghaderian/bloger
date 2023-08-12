@@ -35,25 +35,27 @@ const Posts = () => {
             />
             <div className="PostContent pt-[20px]">
               <h2 className="text-[15px] mb-[10px] text-[#D93E40]">فضانوردی</h2>
-              <p className="text-[16px] leading-10 underlinTitr   w-fit">
+              <p className="text-[16px] leading-10 underlinTitr w-fit">
                 ماموریتRocketLab
               </p>
             </div>
           </div>
 
-          <div className="group w-[260px] md:w-[360px] relative overflow-hidden rounded-lg mt-[30px] md:mt-0  md:px-[15px] lg:w-[480px]  xl:w-[300px] xl:mt-0 ">
+          <div className="group w-[260px] md:w-[360px] relative overflow-hidden rounded-lg  md:px-[15px] lg:w-[480px] xl:w-[300px] ">
             <Image
               src={Post2}
               alt={""}
-              className=" group-hover:scale-110  md:w-full transition duration-300  rounded-lg"
+              className=" group-hover:scale-110 md:w-full transition duration-300 rounded-lg "
             />
             <div className="PostContent pt-[20px]">
-              <h2 className="text-[15px] mb-[10px] text-[#D93E40]">تکنولوژی</h2>
-              <p className="text-[16px] leading-10 underlinTitr   w-fit ">
-                واقعیت مجازی یا فناوری هوش مصنوعی
+              <h2 className="text-[15px] mb-[10px] text-[#D93E40]">فضانوردی</h2>
+              <p className="text-[16px] leading-10 underlinTitr w-fit">
+              واقعیت مجازی یا فناوری هوش مصنوعی
               </p>
             </div>
           </div>
+         
+          
 
           <div className="group w-[260px]  md:w-[360px] relative overflow-hidden rounded-lg mt-[30px]  md:px-[15px] lg:w-[480px] xl:w-[300px] xl:mt-0  ">
             <Image

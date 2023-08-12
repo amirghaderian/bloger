@@ -35,12 +35,14 @@ const PostList = () => {
     <div className="PostList  w-full h-[100%] ml:w-[540px] ml:mx-auto md:w-[720px] lg:w-[960px] xl:w-full  max-w-[1260px]">
       <div className="Container  w-full px-[15px] py-[60px] lg:flex flex-wrap xl:w-full">
         <div className="posts lg:w-2/3 lg:pl-[35px]">
-        <div className="Baner bg-slate-400 ml:w-[510px] md:w-[690px] lg:w-[609px] lg:mx-auto xl:w-[770px] ">
+          <div className="Baner bg-slate-400 ml:w-[510px] md:w-[690px] lg:w-[609px] lg:mx-auto xl:w-[770px] ">
             <Image src={Banner} alt="Banner" />
-        </div>
+          </div>
           <div className="post1 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
-            <div className="Image1 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
-            lg:h-[236px] lg:mt-0 ">
+            <div
+              className="Image1 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
+            lg:h-[236px] lg:mt-0 "
+            >
               <Image
                 src={Post1}
                 alt="Post1"
@@ -49,10 +51,10 @@ const PostList = () => {
               />
             </div>
             <div
-              className="PostContent1 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t ml:rounded-lg
+              className=" group   PostContent1 px-[20px] border-b border-r border-l border-[#837f7f] rounded-b-lg py-[32px] w-full ml:mr-[20px] ml:w-[337px] ml:border-t ml:rounded-lg
             md:w-[375px] lg:h-[236px] xl:mr-[25px] shadow-lg border-none hover:shadow-xl"
             >
-              <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6]">
+              <span className="font-[IranSans] text-[15px] text-[#D93E40] hover:text-[#3858f6] group">
                 گجت
               </span>
               <a href="#" className=" group-hover: underlinTitr">
@@ -61,8 +63,8 @@ const PostList = () => {
                 </h4>
               </a>
               <span className="font-[VasirBold] text-[15px]">رهبی خان</span>
-              <div>
-                <div>17 مرداد, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
+              <div className="xl:flex">
+                <div  className="pl-[5px]">17 مرداد, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
               </div>
               <div className="Logos mt-[12px] flex text-[#606770]">
                 <Facebook className="w-[30px] hover:text-[#3858f6]" />
@@ -74,8 +76,10 @@ const PostList = () => {
           </div>
 
           <div className="post2 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
-            <div className="Image2 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
-            lg:h-[236px] lg:mt-0">
+            <div
+              className="Image2 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
+            lg:h-[236px] lg:mt-0"
+            >
               <Image
                 src={Post2}
                 alt="Post2"
@@ -96,8 +100,8 @@ const PostList = () => {
                 </h4>
               </a>
               <span className="font-[VasirBold] text-[15px]">فاطمه اسرافی</span>
-              <div>
-                <div>20 اردیبهشت, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
+              <div className="xl:flex">
+                <div className="pl-[5px]">20 اردیبهشت, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
               </div>
               <div className="Logos mt-[12px] flex text-[#606770]">
                 <Facebook className="w-[30px] hover:text-[#3858f6]" />
@@ -109,8 +113,10 @@ const PostList = () => {
           </div>
 
           <div className="post3  ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
-            <div className="Image3 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
-            lg:h-[236px] lg:mt-0">
+            <div
+              className="Image3 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
+            lg:h-[236px] lg:mt-0"
+            >
               <Image
                 src={Post3}
                 alt="Post3"
@@ -131,8 +137,8 @@ const PostList = () => {
                 </h4>
               </a>
               <span className="font-[VasirBold] text-[15px]">رافائل</span>
-              <div>
-                <div>2 تیر, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
+              <div className="xl:flex">
+                <div className="pl-[5px]">2 تیر, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
               </div>
               <div className="Logos mt-[12px] flex text-[#606770]">
                 <Facebook className="w-[30px] hover:text-[#3858f6]" />
@@ -144,8 +150,10 @@ const PostList = () => {
           </div>
 
           <div className="post4 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
-            <div className="Image4 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
-            lg:h-[236px] lg:mt-0">
+            <div
+              className="Image4 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
+            lg:h-[236px] lg:mt-0"
+            >
               <Image
                 src={Post4}
                 alt="Post4"
@@ -166,8 +174,8 @@ const PostList = () => {
                 </h4>
               </a>
               <span className="font-[VasirBold] text-[15px]">جان دو</span>
-              <div>
-                <div>1 فروردین, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
+              <div className="xl:flex">
+                <div className="pl-[5px]">1 فروردین, 1400</div> <div>3 دقیقه زمان برای مطالعه</div>
               </div>
               <div className="Logos mt-[12px] flex text-[#606770]">
                 <Facebook className="w-[30px] hover:text-[#3858f6]" />
@@ -179,8 +187,10 @@ const PostList = () => {
           </div>
 
           <div className="post5 ml:flex ml:items-center md:items-end lg:items-center lg:mt-[30px]">
-            <div className="Image5 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
-            lg:h-[236px] lg:mt-0">
+            <div
+              className="Image5 group mt-[30px] rounded-lg relative overflow-hidden ml:w-[153px] ml:h-[252px] md:w-[295px] md:h-[284px]
+            lg:h-[236px] lg:mt-0"
+            >
               <Image
                 src={Post5}
                 alt="Post5"
@@ -201,8 +211,8 @@ const PostList = () => {
                 </h4>
               </a>
               <span className="font-[VasirBold] text-[15px]">جین آرا</span>
-              <div>
-                <div>22 اسفند, 1399</div> <div>3 دقیقه زمان برای مطالعه</div>
+              <div className="xl:flex">
+                <div className="pl-[5px]">22 اسفند, 1399</div> <div>3 دقیقه زمان برای مطالعه</div>
               </div>
               <div className="Logos mt-[12px] flex text-[#606770]">
                 <Facebook className="w-[30px] hover:text-[#3858f6]" />
@@ -293,7 +303,6 @@ const PostList = () => {
 
                 <div className="BestPost2 flex mb-[20px]">
                   <div className="Image2 group overflow-hidden">
-                    
                     <Image
                       src={Best2}
                       alt={"Best2"}
@@ -313,7 +322,6 @@ const PostList = () => {
 
                 <div className="BestPost3 flex mb-[20px]">
                   <div className="Image3 group overflow-hidden ">
-                    
                     <Image
                       src={Best3}
                       alt={"Best3"}
@@ -350,46 +358,46 @@ const PostList = () => {
               </h5>
               <div className="ImagesInstagram flex flex-wrap mt-[20px] ">
                 <div className="w-1/3 md:w-[115px] lg:w-1/3 group overflow-hidden">
-                <Image
-                  src={Instagram1}
-                  alt={"Instagram1"}
-                  className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
-                />
+                  <Image
+                    src={Instagram1}
+                    alt={"Instagram1"}
+                    className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
+                  />
                 </div>
                 <div className="w-1/3 md:w-[115px] lg:w-1/3 group overflow-hidden">
-                <Image
-                  src={Instagram2}
-                  alt={"Instagram2"}
-                  className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
-                />
+                  <Image
+                    src={Instagram2}
+                    alt={"Instagram2"}
+                    className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
+                  />
                 </div>
                 <div className="w-1/3 md:w-[115px] lg:w-1/3 group overflow-hidden">
-                <Image
-                  src={Instagram3}
-                  alt={"Instagram3"}
-                  className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
-                />
+                  <Image
+                    src={Instagram3}
+                    alt={"Instagram3"}
+                    className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
+                  />
                 </div>
                 <div className="w-1/3 md:w-[115px] lg:w-1/3 group overflow-hidden">
-                <Image
-                  src={Instagram4}
-                  alt={"Instagram4"}
-                  className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
-                />
+                  <Image
+                    src={Instagram4}
+                    alt={"Instagram4"}
+                    className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
+                  />
                 </div>
                 <div className="w-1/3 md:w-[115px] lg:w-1/3 group overflow-hidden">
-                <Image
-                  src={Instagram5}
-                  alt={"Instagram5"}
-                  className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
-                />
+                  <Image
+                    src={Instagram5}
+                    alt={"Instagram5"}
+                    className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
+                  />
                 </div>
                 <div className="w-1/3 md:w-[115px] lg:w-1/3 group overflow-hidden">
-                <Image
-                  src={Instagram6}
-                  alt={"Instagram6"}
-                  className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
-                />
+                  <Image
+                    src={Instagram6}
+                    alt={"Instagram6"}
+                    className="w-full p-[4px] rounded-xl md:w-[115px] lg:w-full  group-hover:scale-110 transition duration-300 "
+                  />
                 </div>
               </div>
             </div>
